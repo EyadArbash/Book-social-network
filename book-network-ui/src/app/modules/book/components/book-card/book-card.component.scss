@@ -1,0 +1,26 @@
+div {
+  &.card {
+    max-height: 450px;
+    min-height: 450px;
+  }
+}
+
+i{
+  cursor: pointer;
+}
+.card-body {
+  overflow: hidden;
+  height: auto;
+}
+
+.card-body:hover {
+  overflow: auto;
+}
+.custom-scroll {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.custom-scroll:hover {
+  overflow: auto;
+}
